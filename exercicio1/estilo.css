@@ -1,0 +1,19 @@
+p {
+    white-space: nowrap;
+    height: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.expandido {
+    white-space: normal;
+    height: auto;
+}
+
+button {
+    box-sizing: content-box;
+    height: .9em;
+    width: .9em;
+    padding: 0;
+    margin-right: .5em;
+ }
